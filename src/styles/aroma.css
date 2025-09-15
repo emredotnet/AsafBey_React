@@ -1,0 +1,51 @@
+.aroma {
+    padding: 120px 0;
+    background: var(--dark-bg);
+    color: var(--primary-gold);
+}
+
+.aroma .section-title {
+    color: var(--primary-gold);
+}
+
+.aroma-notes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.note-card {
+    background: var(--deep-navy);
+    backdrop-filter: blur(10px);
+    padding: 2.5rem;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    transition: all 0.3s ease;
+}
+
+.note-card:hover {
+    transform: translateY(-10px);
+    background: var(--deep-navy);
+    border-color: var(--primary-gold);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+}
+
+.note-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.note-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--primary-gold);
+    margin-bottom: 1rem;
+}
+
+.note-card p {
+    line-height: 1.7;
+    opacity: 0.8;
+    color: var(--text-secondary);
+}

@@ -1,0 +1,45 @@
+.product-highlight {
+    padding: 120px 0;
+    background: var(--deep-navy);
+}
+
+.highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    margin-top: 4rem;
+}
+
+.highlight-card {
+    background: var(--dark-bg);
+    padding: 2.5rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px var(--shadow-dark);
+    transition: all 0.3s ease;
+    border-top: 4px solid var(--primary-gold);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.highlight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(212, 175, 55, 0.2);
+    border-color: var(--primary-gold);
+}
+
+.highlight-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.highlight-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--primary-gold);
+    margin-bottom: 1rem;
+}
+
+.highlight-card p {
+    line-height: 1.7;
+    color: var(--text-secondary);
+}

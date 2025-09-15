@@ -1,0 +1,20 @@
+.footer {
+    background: var(--deep-navy);
+    padding: 3rem 0;
+    text-align: center;
+    color: var(--primary-gold);
+}
+
+.footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--primary-gold);
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.footer-text {
+    font-size: 0.95rem;
+    color: var(--primary-gold);
+}
+
